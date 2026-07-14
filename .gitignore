@@ -1,0 +1,21 @@
+# OS artifacts
+.DS_Store
+
+# Build products
+*.o
+*.d
+*.asm
+*.sym
+vectors.S
+bootblock
+entryother
+initcode
+initcode.out
+kernel
+xv6.img
+fs.img
+mkfs
+.gdbinit
+
+# Maintenance scripts
+setup_git_history.sh
